@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component, Fragment } from 'react';
+import 'materialize-css/dist/css/materialize.min.css';
+import './App.css'
 import Tabela from './Tabela.js'
-
+import Formulario from './Formulario.js'
+import Header from "./Header.js"
 class App extends Component {
 
   state = {
-    autores : [
+    autores: [
       {
         nome: 'Paulo',
         livro: 'React',
@@ -35,13 +37,13 @@ class App extends Component {
 
   };
 
-  removeAutor = index =>{
+  removeAutor = index => {
 
-    const { autores } = this.state; 
+    const { autores } = this.state;
 
     this.setState(
       {
-        autores : autores.filter((autor, posAtual) => {
+        autores: autores.filter((autor, posAtual) => {
           console.log(index, posAtual)
           return posAtual !== index;
         }),
@@ -49,16 +51,23 @@ class App extends Component {
     );
   }
 
-  render(){
+  escutadorDeSubmit = autor => {
+    this.setState({ autores: [...this.state.autores, autor] })
+  }
+
+  render() {
     return (
-      <div className="App">
-  
-        <Tabela autores = { this.state.autores } removeAutor = {this.removeAutor} />
-  
-      </div>
+      <Fragment>
+        <Header />
+        <div className="container mb-10">
+          <Tabela autores={this.state.autores} removeAutor={this.removeAutor} />
+          <Formulario escutadorDeSubmit={this.escutadorDeSubmit} />
+        </div>
+
+      </Fragment>
     );
   }
-  
+
 }
 
 export default App;
