@@ -9,7 +9,7 @@ As instruções a seguir irão lhe proporcionar uma cópia deste projeto e de co
 ### Pre-requisitos
 Dependências necessárias para se instalar o software e como instalá-las.
 
-1. Tenha certeza que você tenha o node instalado em sua máquina (https://nodejs.org/en/)
+1. Tenha certeza que você tenha o node instalado em sua máquina (https://nodejs.org/)
 
 ```
 node -v
@@ -25,13 +25,13 @@ Para rodar a aplicação, execute os próximos passos:
 
 1. Faça o clone do projeto
 ```
-https://github.com/felipefariasdasilva/login-react.git
+https://github.com/felipefariasdasilva/crud-react.git
 ```
 
 2. Entre na pasta
 
 ```
-cd login-react
+cd crud-react
 ```
 
 3. Instale as dependências
