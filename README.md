@@ -1,4 +1,4 @@
-# Título do Projeto
+# Simple CRUD in React
 
 Um parágrafo simples dando uma descrição sobre o projeto 
 
@@ -58,10 +58,7 @@ Dê um exemplo
 Adicione notas de como dar deploy do sistema em produção.
 
 ## Desenvolvido com
-Mencionar os frameworks e ferramentes utilizados para se desenvolver essa aplicação. Como por exemplo:
-
-* [Angular](https://angular.io/) - O framework web utilizado
-* [MongoDb](https://www.mongodb.com/) - O banco de dados utilizado.
+* [ReactJS](https://reactjs.org/) - O framework web utilizado
 
 ## Contribuições
 
