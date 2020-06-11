@@ -1,6 +1,6 @@
 # Simple CRUD in React
 
-Um parágrafo simples dando uma descrição sobre o projeto 
+Exemplo simples de um CRUD no ReactJS
 
 ## Começando
 
@@ -34,13 +34,19 @@ https://github.com/felipefariasdasilva/login-react.git
 cd login-react
 ```
 
-3. E rode o seguinte comando para inicializar a aplicação
+3. Instale as dependências
+
+```
+npm install
+```
+
+4. Em seguida rode a aplicação
 
 ```
 npm start
 ```
 
-4. Acesse no seu navegador o link de execução
+5. Acesse no seu navegador o link de execução
 
 ```
 http://localhost:3000
