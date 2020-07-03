@@ -1,4 +1,4 @@
-# Simple CRUD in React
+# :mega: Simple CRUD in React
 
 Exemplo simples de um CRUD no ReactJS
 
