@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+  frontend:
+    container_name: crud-react
+    image: feliipefarias/react-crud-library
+    volumes:
+      - '.:app/frontend'
+      - '/app/frontend/node_modules'
+    ports: 
+      - '3000:3000'
